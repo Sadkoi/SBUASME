@@ -1,0 +1,194 @@
+
+body{
+    overflow-x: hidden;
+    padding:0px;
+    margin:0px;
+}
+
+#navBar{
+    height: 100px;
+    background-color: transparent;
+    text-align: right;
+    position:relative;
+    z-index: 20;
+}
+
+#ASMElogo{
+    content: url(images/ASMENoGlobe.png);
+    width: 25%;
+    position: absolute;
+    top: 20px;
+    left: 20px;
+    margin-right: 100px;
+}
+
+#miniEvents{
+    width: 100%;
+    font-family: 'Roboto Condensed';
+    text-align:center;
+}
+
+
+.eventElement{
+    position: relative;
+    width: 90%;
+    margin-left:5%;
+    background: #F9FCFF;
+    box-shadow: 0px 0px 69px rgba(192, 208, 223, 0.4);
+    border-radius: 35px;
+    margin-top: 75px;
+    text-align: center;
+    padding-top:20px;
+    padding-bottom:20px;
+}
+
+.miniEventIcon{
+    width: 25%;
+    display:block;
+    margin-left: 37.5%;
+}
+
+.infoBox{
+    position: relative;
+    width: 80%;
+    padding-left:10%;
+    padding-right:10%;
+    display: block;
+}
+
+.eventTitle{
+    font-size: 25px;
+    line-height: 45px; 
+    color: #125EB1;
+    display: block;
+}
+
+.eventDetails{
+    font-size: 15px; 
+    line-height: 18px; 
+    color: #A2B4C8;
+    display: block;
+}
+
+.eventDescription{
+    font-size: 18px; 
+    color: #125EB1;
+    display: block;
+}
+
+#explanation{
+    position: relative;
+    width: 80%;
+    margin-left:10%;
+    margin-top:50px;
+    font-family: 'Roboto Condensed';
+    text-align: center;
+}
+
+#possibleEvents{
+    position: relative;
+    width: 75%;
+    margin-left:12.5%;
+    margin-top:50px;
+    font-family: 'Roboto Condensed';
+    text-align: center;
+
+}
+
+.eventCircle{
+    width: 200px;
+    height: 200px;
+    box-shadow: 0px 0px 69px rgba(192, 208, 223, 0.4);
+    border-radius:50%;
+    position: relative;
+    margin-left:50%;
+    transform: translate(-50%);
+    margin-bottom: 30px;
+}
+
+.eventSlot{
+    margin-top: 50px;
+    margin-bottom:50px;
+}
+
+.eventIcon{
+    width: 60%;
+    height: 60%;
+    margin-top: 20%;
+}
+
+.potentialTitle{
+    font-size: 25px;
+    line-height: 30px; 
+    color: #125EB1;
+    font-family: "Roboto Condensed";
+    display: block;
+}
+
+.potentialCaption{
+    font-size: 18px; 
+    line-height: 25px; 
+    color: #A2B4C8;
+    font-family: "Roboto Condensed";
+    display: block;
+    padding: 20px;
+}
+
+#blueHamburger{
+    content: url("images/menuIconBlue.png");
+    position: absolute;
+    width: 8%;
+    top: 2vh;
+    right: 2vh;
+    z-index: 21;
+}
+
+
+#mobileMenu{
+    position: fixed;
+    width: 0%;
+    overflow: hidden;
+    top:0px;
+    right:0px;
+    height: calc(100vh - 60px);
+    background-color: #236DE2;
+    z-index: 10;
+    padding-top: 60px;
+}
+
+#blurFilter{
+    position: fixed;
+    width: 100%;
+    top: 0px;
+    left: 0px;
+    height: 100vh;
+    background-color: rgba(255, 255, 255, 0);
+    backdrop-filter: blur(0px);
+    z-index: 4;
+    display: none;
+}
+
+.mobileNav{
+    color: white;
+    display: block;
+    font-family: "Roboto Condensed";
+    font-size: 20px;
+    text-decoration: none;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    width: calc(100% - 60px);
+    padding-left: 30px;
+    padding-right: 30px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+}
+
+.mobileNav:active{
+    color: #236DE2;
+    background-color: white;
+}
+
+.mobileNav:hover{
+    color: #236DE2;
+    background-color: white;
+}

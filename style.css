@@ -1,0 +1,808 @@
+body{
+    margin: 0px;
+    overflow-x:hidden;
+}
+
+#openingPage{
+    position: absolute;
+    top:0px;
+    width: 100vw;
+    height: 830px;
+    background: linear-gradient(85.15deg, #519EE9 9.95%, #2985ED 91.88%);
+    margin:0px;
+}
+
+#darkBlueStripe{
+    position: absolute;
+    width: 10090px;
+    height: 420px;
+    left: -266.11px;
+    top: -52px;
+
+    background: #9FCDFF;
+    mix-blend-mode: multiply;
+    box-shadow: inset 0px 0px 94px rgba(52, 122, 225, 0.33);
+    transform: rotate(-5.31deg);
+}
+
+#phone{
+    content: url(images/CellPhone.png);
+    position: absolute;
+    height: 720px;
+    left: 950px;
+    top: 80px;
+}
+
+#navBar{
+    height: 100px;
+    background-color: transparent;
+    text-align: right;
+    position:relative;
+    z-index: 20;
+}
+
+.navButton{
+    position: relative;
+    font-family: 'Roboto Condensed';
+    font-size: 20px;
+    top: 37.5px;
+    margin-left:25px;
+    margin-right:25px;
+    color: #FFFFFF;
+    text-decoration: none;
+}
+
+.joinButton{
+    position: relative;
+    font-family: 'Roboto Condensed';
+    font-size: 20px;
+    top: 37.5px;
+    margin-left:25px;
+    margin-right:25px;
+    color: #236DE2;
+    text-decoration: none; 
+    background-color: white; 
+    padding-left:33px; 
+    padding-right:33px;
+    padding-top:8px; 
+    padding-bottom:8px; 
+    border-radius: 15px;
+    border: 2px solid white;
+}
+
+.navButton:after{
+    content: '';
+    position: absolute;
+    width: 100%;
+    transform: scaleX(0);
+    height: 2px;
+    bottom: 0;
+    left: 0;
+    background-color: #FFFFFF;
+    transform-origin: bottom left;
+    transition: transform 0.25s ease-out;
+}
+
+.navButton:hover:after{
+    transform: scaleX(1);
+    transform-origin: bottom left;
+  }
+
+#ASMElogo{
+    content: url(images/ASMENoGlobe.png);
+    width: 120px;
+    position: absolute;
+    top: 32px;
+    left: 32px;
+    margin-right: 100px;
+}
+
+#BeAPart{
+    position: absolute; 
+    width: 672px; 
+    height: 282px; 
+    left: 67px;
+    top: 272px; 
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 100px;
+    line-height: 120px;
+    display: flex;
+    align-items: center;
+    color: #FFFFFF;
+}
+
+#SBUlogo{
+    content: url(images/SBULogoWhite.png);
+    position: absolute;
+    height: 70px;
+    left: 67px;
+    top: 583px;
+}
+
+#secondHalf{
+    width: 100vw; 
+    padding:0px; 
+    margin: 0px; background-color: #F9FCFF;
+    position: absolute; margin-top: 720px; overflow:hidden; min-height: 1600px;
+}
+
+#aboveFold{
+    width: 100vw; padding:0px; margin: 0px; height: 820px;
+    position: absolute; top:0px; overflow:hidden;
+}
+
+#missionIcon1{
+    position: absolute; 
+    width: 255.04px; 
+    height: 258.58px; 
+    left: 70px; 
+    top: 330px;
+}
+
+#missionIcon2{
+    position: absolute;
+    width: 255.04px;
+    height: 258.58px;
+    right: 10vw;
+    top: 640px;
+}
+
+#missionIcon3{
+    position: absolute;
+    width: 255.04px;
+    height: 258.58px;
+    left: 70px;
+    top: 960px;
+}
+
+#section2{
+    position: relative; 
+    margin-left: 120px; 
+    margin-top: 20px; 
+    width: calc(75vw - 200px);
+    height: 300px;
+    text-align: center;
+}
+
+#section3{
+    position: relative; 
+    margin-left: max(360px,25vw); 
+    margin-top: 20px; 
+    width: calc(75vw - 200px);
+    height: 300px;
+    text-align: center;
+}
+
+#readytoJoin{
+    position: relative; 
+    font-family: 'Roboto Condensed'; 
+    font-size: 35px; 
+    color: #F9FCFF;
+    padding-left:30px;
+    padding-right: 30px; 
+    padding-top: 10px; 
+    padding-bottom: 10px; 
+    margin-left: 10px;
+    background-image:linear-gradient(85.15deg, #11DBE8 4.975%, #2EADF4 50%, #236DE2 45.025%); 
+    margin-bottom: 30px; 
+    border-radius: 20px; 
+    text-decoration: none;
+    background-size: 250% 100%;
+    background-position: left bottom;
+    transition: all .5s ease-out;
+}
+
+#readytoJoin:hover {
+    background-position: right bottom;
+}
+
+
+.sectionheader{
+    font-family: 'Roboto Condensed';
+    font-size: 35px;
+    background-color: #2EADF4;
+    background-image: linear-gradient(45deg, #2EADF4, #11DBE8);
+    background-size: 100%;
+    -webkit-background-clip: text;
+    -moz-background-clip: text;
+    -webkit-text-fill-color: transparent; 
+    -moz-text-fill-color: transparent;
+}
+
+#section1{
+    position: relative; 
+    margin-left: max(360px,25vw); 
+    margin-top: 350px; 
+    width: calc(75vw - 200px);
+    height: 300px;
+    text-align: center;
+}
+
+.description{
+
+    font-family: 'Roboto Condensed';
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 21px;
+    display: flex;
+    align-items: center;
+    padding-top:20px;
+    text-align: left;
+    color: #125EB1;
+}
+
+#action1{
+    text-align:center; 
+    margin-top: 20px;
+}
+
+.socialLinks{
+    display: inline;
+    margin-left: 3vw;
+    margin-right: 3vw;
+    height: 40px;
+    padding-top: 20px;
+    padding-bottom: 0px;
+    transition: all 0.25s ease-out;
+}
+
+.socialLinks:hover{
+    padding-top: 0px;
+    padding-bottom: 20px;
+}
+
+#miniEvents{
+    width: 100vw;
+    font-family: 'Roboto Condensed';
+    padding: 30px;
+}
+
+#visitEvents{
+    position: relative; 
+    font-family: 'Roboto Condensed'; 
+    font-size: 35px; 
+    color: #F9FCFF;
+    padding-left:30px; 
+    padding-right: 30px; 
+    padding-top: 10px; 
+    padding-bottom: 10px; 
+    margin-left: 10px;
+    background-image:linear-gradient(85.15deg, #11DBE8 4.975%, #2EADF4 50%, #236DE2 45.025%);
+    margin-bottom: 30px; 
+    border-radius: 20px; 
+    text-decoration: none;
+    background-size: 250% 100%;
+    background-position: left bottom;
+    transition: all .5s ease-out; 
+}
+
+#visitEvents:hover{
+    background-position: right bottom;
+}
+
+#continer2{
+    margin-top: 75px; 
+    text-align: right; 
+    padding-left: 120px; 
+    padding-right: 190px
+
+}
+
+.eventElement{
+    position: relative;
+    width: calc(100vw - 240px);
+    max-width: 1920px;
+    height: 200px;
+    background: #F9FCFF;
+    box-shadow: 0px 0px 69px rgba(192, 208, 223, 0.4);
+    border-radius: 35px;
+    margin-top: 75px;
+    padding: 20px;
+    padding-left: 30px;
+}
+
+.miniEventIcon{
+    width: 120px;
+    margin-right: 20px;
+}
+
+.infoBox{
+    position: absolute;
+    top: 30px;
+    left: 240px;
+    width: calc(100vw - 500px);
+}
+
+.eventTitle{
+    font-size: 35px;
+    line-height: 45px; 
+    color: #125EB1;
+}
+
+.eventDetails{
+    font-size: 22px; 
+    line-height: 32px; 
+    color: #A2B4C8;
+}
+
+.eventDescription{
+    font-size: 18px; 
+    color: #125EB1;
+}
+
+#footer{
+    background-image: linear-gradient(85.15deg, #519EE9 9.95%, #2985ED 91.88%);
+    width:calc(100% - 17px);
+    height: 350px;
+    padding: 60px;
+    padding-left: 50px;
+    display: flex;
+}
+
+.listOfLinks{
+    display: inline;
+    width: 10%;
+    min-width:200px;
+    font-size: 18px; 
+    font-family: Roboto;
+    font-weight: 300;
+    color: #F9FCFF;
+}
+
+.footerLink{
+    line-height: 40px;
+    color: #F9FCFF;
+    text-decoration: none;
+}
+
+#possibleEvents1, #possibleEvents2, #possibleEvents3{
+    padding:100px;
+    padding-bottom: 0px;
+    display:flex;
+}
+
+.eventSlot{
+    position:relative;
+    margin:0px;
+    text-align: center;
+    justify-content: center;
+    width: calc(25%);
+    min-width: 200px;
+    /*height: 600px;*/
+}
+
+.eventCircle{
+    width: 200px;
+    height: 200px;
+    box-shadow: 0px 0px 69px rgba(192, 208, 223, 0.4);
+    border-radius:50%;
+    position: relative;
+    margin-left:50%;
+    transform: translate(-50%);
+    margin-bottom: 30px;
+    transition: all 0.25s ease-out;
+}
+
+.eventCircle:hover{
+    box-shadow: 0px 0px 0px rgba(192, 208, 223, 0.4);
+}
+
+.potentialTitle{
+    font-size: 25px;
+    line-height: 32px; 
+    color: #125EB1;
+    font-family: "Roboto Condensed";
+    display: block;
+}
+
+.potentialCaption{
+    font-size: 18px; 
+    line-height: 28px; 
+    color: #A2B4C8;
+    font-family: "Roboto Condensed";
+    display: block;
+    padding: 20px;
+}
+
+.eventIcon{
+    width: 60%;
+    height: 60%;
+    margin-top: 20%;
+}
+
+#teamHolder{
+    padding:20px;
+    padding-bottom: 50px;
+    display:flex;
+    -webkit-flex-wrap: wrap; 
+    flex-wrap: wrap;
+    align-items: flex-start;
+}
+
+.teamSlot{
+    position:relative;
+    margin:0px;
+    text-align: center;
+    justify-content: center;
+    width: 33%;
+}
+
+.profilePic{
+    margin-top:15px;
+    width: 170px;
+    border-radius: 50%;
+}
+
+.bioHolder{
+    background-color: #EEF3F9;
+    width: 60%;
+    margin-left:10%;
+    margin-top: -120px;
+    border-radius: 30px;
+    padding-top:120px;
+    padding-left: 10%;
+    padding-right: 10%;
+    padding-bottom: 40px;
+    text-align: center;
+    font-family: "Roboto Condensed";
+}
+
+#LargeFoldFont{
+    position: absolute; 
+    width: 672px; 
+    height: 282px; 
+    left: 67px;
+    top: 262px; 
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 80px;
+    line-height: 100px;
+    display: flex;
+    align-items: center;
+    color: #FFFFFF;
+}
+
+#miniFoldFont{
+    position: absolute; 
+    width: 672px; 
+    height: 282px; 
+    left: 67px;
+    top: 400px; 
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 300;
+    font-size: 25px;
+    line-height: 32px;
+    display: flex;
+    align-items: center;
+    color: #FFFFFF;    
+}
+
+#miniFoldFont2{
+    position: absolute; 
+    width: 672px; 
+    height: 282px; 
+    left: 67px;
+    top: 350px; 
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 300;
+    font-size: 25px;
+    line-height: 32px;
+    display: flex;
+    align-items: center;
+    color: #FFFFFF;    
+}
+
+#wolfie{
+    content: url(images/wolfie.png);
+    position: absolute;
+    height: 600px;
+    left: 725px;
+    top: 138px;
+}
+
+.formHolder{
+    position:relative;
+    margin:0px;
+    text-align: left;
+    justify-content: center;
+    width: calc(55% - 40px);
+    border-right: 4px solid #eef3f9;
+    display: flex;
+    -webkit-flex-wrap: wrap; 
+    flex-wrap: wrap;
+    padding-top:50px;
+    padding-left: 20px;
+    padding-right: 20px;
+    padding-bottom: 300px;
+}
+
+
+.HalfInputs{
+    background-color: #F9FCFF;
+    border: none;
+    box-shadow: 0px 0px 21px rgba(192, 208, 223, 0.4);
+    width: calc(80% - 40px);
+    border-radius: 20px;
+    height: 50px;
+    margin-top:25px;
+    padding-left: 20px;
+    padding-right:20px;
+    font-family: "Roboto Condensed";
+    font-size: 20px;
+}
+
+.FullInputs{
+    background-color: #F9FCFF;
+    border: none;
+    box-shadow: 0px 0px 21px rgba(192, 208, 223, 0.4);
+    width: calc(90% - 40px);
+    border-radius: 20px;
+    height: 50px;
+    margin-top:25px;
+    padding-left: 20px;
+    padding-right:20px;
+    font-family: "Roboto Condensed";
+    font-size: 20px;
+}
+
+.Message{
+    background-color: #F9FCFF;
+    border: none;
+    box-shadow: 0px 0px 21px rgba(192, 208, 223, 0.4);
+    width: calc(90% - 40px);
+    border-radius: 20px;
+    height: 250px;
+    margin-top:25px;
+    font-family: "Roboto Condensed";
+    font-size: 20px; 
+    resize: none;
+    padding: 20px; 
+    margin-bottom: 20px;
+}
+
+.SubmitButton{
+    border: 0px red solid;
+    position: absolute; 
+    font-family: 'Roboto Condensed'; 
+    font-size: 35px; 
+    color: #F9FCFF;
+    padding-left:50px;
+    padding-right: 50px; 
+    padding-top: 10px; 
+    padding-bottom: 10px; 
+    background-image:linear-gradient(85.15deg, #11DBE8 4.975%, #2EADF4 50%, #236DE2 45.025%); 
+    top: 700px;
+    right: calc(10% - 20px); 
+    border-radius: 20px; 
+    text-decoration: none;
+    background-size: 250% 100%;
+    background-position: left bottom;
+    transition: all .5s ease-out;
+}
+
+.SubmitButton:hover {
+    background-position: right bottom;
+}
+
+
+::placeholder{
+    color:#A2B4C8;
+}
+
+/* MOBILE HAMBURGER MENU*/
+
+#blueHamburger{
+    content: url("images/menuIconBlue.png");
+    position: absolute;
+    width: 8%;
+    top: 2vh;
+    right: 2vh;
+    z-index: 21;
+}
+
+#mobileMenu{
+    position: fixed;
+    width: 0%;
+    overflow: hidden;
+    top:0px;
+    right:0px;
+    height: calc(100vh - 60px);
+    background-color: #236DE2;
+    z-index: 10;
+    padding-top: 60px;
+}
+
+#blurFilter{
+    position: fixed;
+    width: 100%;
+    top: 0px;
+    left: 0px;
+    height: 100vh;
+    background-color: rgba(255, 255, 255, 0);
+    backdrop-filter: blur(0px);
+    z-index: 4;
+    display: none;
+}
+
+.mobileNav{
+    color: white;
+    display: block;
+    font-family: "Roboto Condensed";
+    font-size: 20px;
+    text-decoration: none;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    width: calc(100% - 60px);
+    padding-left: 30px;
+    padding-right: 30px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+}
+
+.mobileNav:active{
+    color: #236DE2;
+    background-color: white;
+}
+
+.mobileNav:hover{
+    color: #236DE2;
+    background-color: white;
+}
+
+#whiteHamburger{
+    content: url("images/menuIconWhite.png");
+    position: absolute;
+    width: 8%;
+    top: 2vh;
+    right: 2vh;
+    z-index: 21;
+}
+
+#mobileMenu2{
+    position: fixed;
+    width: 0%;
+    overflow: hidden;
+    top:0px;
+    right:0px;
+    height: calc(100vh - 60px);
+    background-color: white;
+    z-index: 10;
+    padding-top: 60px;
+}
+
+.mobileNav2{
+    color: #236DE2;
+    display: block;
+    font-family: "Roboto Condensed";
+    font-size: 20px;
+    text-decoration: none;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    width: calc(100% - 60px);
+    padding-left: 30px;
+    padding-right: 30px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+}
+
+.mobileNav2:active{
+    color: white;
+    background-color: #236DE2;
+}
+
+.mobileNav2:hover{
+    color: white;
+    background-color: #236DE2;
+}
+
+.bioLink{
+    -webkit-animation: bioLinkDown 0.25s;
+    padding-top:20px;
+    padding-bottom:0px;
+}
+
+.bioLink:hover{
+    -webkit-animation: bioLinkUp 0.25s;
+    padding-top:0px;
+    padding-bottom:20px;
+}
+
+
+@-webkit-keyframes bioLinkUp{
+    0%{
+        padding-top:20px;
+        padding-bottom:0px;
+    }
+    100%{
+        padding-top:0px;
+        padding-bottom:20px;
+    }
+}
+
+@-webkit-keyframes bioLinkDown{
+    0%{
+        padding-top:0px;
+        padding-bottom:20px;
+    }
+    100%{
+        padding-top:20px;
+        padding-bottom:0px;
+    }
+}
+
+#joinMailingList{
+    position: relative; 
+    font-family: 'Roboto Condensed'; 
+    font-size: 35px; 
+    color: #F9FCFF;
+    padding-left:30px; 
+    padding-right: 30px; 
+    padding-top: 10px; 
+    padding-bottom: 10px; 
+    margin-left: 10px;
+    background-image:linear-gradient(85.15deg, #11DBE8 4.975%, #2EADF4 50%, #236DE2 45.025%);
+    margin-bottom: 30px; 
+    border-radius: 20px; 
+    text-decoration: none;
+    background-size: 250% 100%;
+    background-position: left bottom;
+    transition: all .5s ease-out;
+}
+
+#joinMailingList:hover {
+    background-position: right bottom;
+}
+
+.fadeInBottom{
+    -webkit-animation: fadeInBottom 1.2s both;
+}
+
+@-webkit-keyframes fadeInBottom {
+    0%{
+        opacity: 0;
+        -webkit-transform: translateY(100px);
+    }
+    100%{
+        opacity: 1;
+        -webkit-transform: translateY(0px);
+    }
+}
+
+.fadeInRight{
+    -webkit-animation: fadeInRight 1.2s both;
+}
+
+@-webkit-keyframes fadeInRight {
+    0%{
+        opacity: 0;
+        -webkit-transform: translateX(100px);
+    }
+    100%{
+        opacity: 1;
+        -webkit-transform: translateX(0px);
+    }
+}
+
+.fadeInLeft{
+    -webkit-animation: fadeInLeft 1.2s both;
+}
+
+@-webkit-keyframes fadeInLeft {
+    0%{
+        opacity: 0;
+        -webkit-transform: translateX(-100px);
+    }
+    100%{
+        opacity: 1;
+        -webkit-transform: translateX(0px);
+    }
+}
+
+input{
+    box-shadow: none;
+}

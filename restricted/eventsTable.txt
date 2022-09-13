@@ -1,0 +1,5 @@
+Name|Image|Day|Date|Start|End|Location|Description
+Speed Networking|images/EventIcons/Human.png|Tuesday|9/06/2022|7:00PM|8:30PM|Light Engineering 173|Show up to make some new friends!
+MATLAB Workshop|images/EventIcons/Terminal.png|Tuesday|9/13/2022|7:00PM|8:30PM|Light Engineering 173|Come learn MATLAB, even if you've never written a line of code before. In this Workshop, we'll go over the absolute basics of MATLAB, and then apply what we learned by creating a caesar cipher!
+Brain Games|images/EventIcons/Dice.png|Tuesday|9/20/2022|7:00PM|8:30PM|Light Engineering 173|Try your hand at a few brain teasers. Winners get prizes, and everyone gets free food!
+Study Session|images/EventIcons/openBook.png|Tuesday|9/27/2022|7:00PM|8:30PM|Light Engineering 173|With the first round of midterms coming up, you're gonna need it.
